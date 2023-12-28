@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
         mTileCachePreview = findViewById(R.id.previewMapView);
         mTileCachePreviewLayout = findViewById(R.id.mapPreviewLayout);
         Current_location=findViewById(R.id.current_location);
-        ArcGISRuntimeEnvironment.setApiKey("AAPK8295f8c1f7df46c8847c95fa61d31070m-KBwornZP-D3bK9thEP2c2ve0_J-xfZrsv1I16idrL9j-DqTKYP2Ul-K_9AK0b8");
+        ArcGISRuntimeEnvironment.setApiKey("<Your API Key>");
         ArcGISMap map = new ArcGISMap();
         map.setBasemap(new Basemap(BasemapStyle.ARCGIS_IMAGERY));
         //BasemapStyle.ARCGIS_IMAGERY
